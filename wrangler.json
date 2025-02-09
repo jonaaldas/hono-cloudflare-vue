@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hono-vue-ts-cloudflare-workers",
   "main": "src/index.ts",
+  "minify": true,
   "compatibility_date": "2025-02-09",
   "assets": {
     "directory": "./dist",
